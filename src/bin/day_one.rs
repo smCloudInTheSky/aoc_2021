@@ -62,9 +62,9 @@ fn read_3(path: &str) -> i32 {
 
 fn main () { 
 
-///    let result = read_increase("../input/input_day_one.txt");
+    let result = read_increase("../input/input_day_one.txt");
     let result2 = read_3("../input/input_day_one.txt" );
-///    println!("result : {}",result);
+    println!("result : {}",result);
     println!("result : {}", result2);
 
 }
