@@ -122,7 +122,7 @@ fn load_input_w_diag(path: &str, matrix: Vec<Vec<usize>>) -> Vec<Vec<usize>> {
 }
 
 fn main() {
-  let mut matrix: Vec<Vec<usize>> = vec![ vec![0usize ; 1000] ; 1000];
+  let matrix: Vec<Vec<usize>> = vec![ vec![0usize ; 1000] ; 1000];
   let res = load_input("../input/input_day_five.txt", matrix.clone() ); 
   let mut count: usize = 0;
   for row in res.iter() {
